@@ -13,5 +13,6 @@ data_module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(data_module)
 
 # Access the data from the imported module
-data = data_module.example_var
-print(data)  # Output: You're in file2
+#data = data_module.example_var
+#print(data)
+print(data_module.example_var)  # Output: You're in file2
